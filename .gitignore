@@ -1,0 +1,10 @@
+# dataset (downloaded automatically by torchvision) and model weights
+data/
+*.pt
+*.pth
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/

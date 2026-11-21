@@ -46,3 +46,4 @@ Exercises 1 and 2 are single runs with seed 42. Exercises 3 and 4 train every co
 Each extension is a clearly labelled final section of its notebook, with its own results file. The main results and their JSON files remain the reported results. Re-running a whole notebook also re-executes its main sections and rewrites their JSON file: the metrics reproduce on the same hardware, but the recorded training times change.
 
 - **Exercise 3, Section 11 - longer training:** the four main methods trained for 60 epochs instead of 30, with the same seeds and settings (`results/ex3_extension_60_epochs.json`).
+- **Exercise 4, Section 11 - learning rate for wider models:** 32-64, 64-128 and 128-256 trained at learning rate 3e-4 and compared with the saved 1e-3 results, judged on validation accuracy (`results/ex4_extension_lr.json`).

@@ -40,3 +40,9 @@ Exercises 1 and 2 are single runs with seed 42. Exercises 3 and 4 train every co
 - The run seed controls weight initialisation, dropout and augmentation randomness, and the shuffling of the training batches.
 - Results are reported as mean ± sample standard deviation (`ddof=1`) over the three seeds. Exercise 3 also reports paired differences against the baseline run with the same seed.
 - The dropout rate in Exercise 3 is chosen by mean validation accuracy. The test set is not used for this choice.
+
+## Extensions (outside the main protocol)
+
+Each extension is a clearly labelled final section of its notebook, with its own results file. The main results and their JSON files remain the reported results. Re-running a whole notebook also re-executes its main sections and rewrites their JSON file: the metrics reproduce on the same hardware, but the recorded training times change.
+
+- **Exercise 3, Section 11 - longer training:** the four main methods trained for 60 epochs instead of 30, with the same seeds and settings (`results/ex3_extension_60_epochs.json`).

@@ -7,7 +7,7 @@ CIFAR-10 image classification with PyTorch: MLP vs CNN, regularisation, and the 
 | File | Exercise |
 |---|---|
 | `Ex1_MLP.ipynb` | Exercise 1 - Multi-Layer Perceptron (3 trainable layers) |
-| `Ex2_CNN.ipynb` | Exercise 2 - CNN and MLP vs CNN comparison *(to be added)* |
+| `Ex2_CNN.ipynb` | Exercise 2 - CNN and MLP vs CNN comparison |
 | `Ex3_Regularisation.ipynb` | Exercise 3 - dropout and data augmentation *(to be added)* |
 | `Ex4_Width_Depth.ipynb` | Exercise 4 - model width and depth *(to be added)* |
 | `results/` | JSON results and figures written by the notebooks (used in the report) |

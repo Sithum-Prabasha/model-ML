@@ -3,7 +3,7 @@
   "model": "CNN Conv(3->32)-Conv(32->64)-Linear(4096->10) (ReLU, MaxPool)",
   "trainable_parameters": 60362,
   "best_epoch": 13,
-  "train_seconds": 28.1,
+  "train_seconds": 28.2,
   "device": "cuda",
   "config": {
     "seed": 42,
@@ -283,7 +283,7 @@
       "val_loss": 3.0327765369415283,
       "best_epoch": 26,
       "trainable_parameters": 3676682,
-      "train_seconds": 18.1
+      "train_seconds": 17.2
     },
     "cnn": {
       "train_acc": 0.8719333333333333,
@@ -293,7 +293,7 @@
       "val_loss": 0.9097695042610169,
       "best_epoch": 13,
       "trainable_parameters": 60362,
-      "train_seconds": 28.1
+      "train_seconds": 28.2
     }
   }
 }

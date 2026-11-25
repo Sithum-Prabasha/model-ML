@@ -1,5 +1,3 @@
-Student: [NAME] — [ID]
-
 # PUSL3123 AI and Machine Learning - Assessment 1 (Set Exercises)
 
 CIFAR-10 image classification with PyTorch: MLP vs CNN, regularisation, and the effect of model width and depth.

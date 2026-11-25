@@ -3,7 +3,7 @@
   "model": "MLP 3072-1024-512-10 (ReLU)",
   "trainable_parameters": 3676682,
   "best_epoch": 26,
-  "train_seconds": 17.4,
+  "train_seconds": 17.2,
   "device": "cuda",
   "config": {
     "seed": 42,

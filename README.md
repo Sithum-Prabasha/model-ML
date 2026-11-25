@@ -21,6 +21,7 @@ Other files:
 
 - `results/`: JSON results and, in `results/figures/`, the figures written by the notebooks.
 - `requirements.txt`: exact package versions used.
+- `report_figures/`: the figures used in the report, numbered as in the report (see `report_figures/INDEX.md`). `report_figures/make_report_figures.py` creates report Figures 2, 4, 6 and 9 from `results/*.json`: `python report_figures/make_report_figures.py results <output_folder>`.
 - `tools/compare_results.py`: compares `results/*.json` with a backup copy (see below). It is kept in the project repository and is not part of the submission ZIP.
 
 ## Setup

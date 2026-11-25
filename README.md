@@ -15,7 +15,7 @@ Run the notebooks in this order. Exercise 2 reads the Exercise 1 results, and Ex
 | 3 | `Ex3_Regularisation.ipynb` | Evaluates dropout and data augmentation over 3 seeds, with a 60-epoch extension | about 24 min |
 | 4 | `Ex4_Width_Depth.ipynb` | Evaluates model width and depth over 3 seeds, with a learning-rate extension | about 34 min |
 
-Runtimes are wall-clock times for one clean run on an NVIDIA GeForce RTX 4050 Laptop GPU, including the extensions.
+Runtimes are wall-clock times for one clean run on an NVIDIA GeForce RTX 4050 Laptop GPU, including the extensions. The training times recorded in `results/*.json` come from the final clean run on the same RTX 4050 Laptop GPU and are indicative only: they vary between runs and machines, while the accuracies and losses do not.
 
 Other files:
 
